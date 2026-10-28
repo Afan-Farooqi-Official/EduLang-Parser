@@ -1,0 +1,15 @@
+# Compiled binary
+edulang_parser.exe
+*.exe
+*.o
+*.obj
+
+# Output files (auto-generated)
+output/*.txt
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,21 @@
+enroll
+{
+    score marks = 75
+    grade result;
+    check (marks >= 50)
+    {
+        result = 'P';
+    }
+    otherwise
+    {
+        result = 'F';
+        score extra = ;
+    }
+    repeat
+    {
+        score i = 0;
+        print(i)
+    }
+    print(result);
+}
+graduate
